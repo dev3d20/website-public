@@ -1,41 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <title>Contact Us | 3D20 </title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-    <link rel="icon" type="image/png" href=3d20_logo_single_die.png>
-    
-    <style>
-    :root {
-        /* Primary theme color */
-        --primary-color: #FED43F;
-        /* Primary theme text color */
-        --primary-text-color: #543631;
-        --primary-text-color-over: #000;
-        /* Primary theme link color */
-        --primary-link-color: #F9BB2D;
-        /* Secondary color: the background body color */
-        --secondary-color: #fcfaf6;
-        --secondary-text-color: #303030;
-        /* Highlight text color of table of content */
-        --toc-highlight-text-color: #d46e13;
-        --toc-background-color: white;
-        --code-color: #4a4a4a;
-        --code-background-color: white;
-
-        --shadow-color: #ddd;
-
-        /* Font used for headers (h1 & h2) */
-        --header-font-family: "Fira Sans", sans-serif;
-        /* Font used for text */
-        --text-font-family: "Fira Sans", sans-serif;
-    }
-
-    @media (prefers-color-scheme: dark) {
-        :root {
+    <head>
+        <meta charset="UTF-8">
+        <title>Contact Us | 3D20 </title>
+        <meta name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <link rel="icon" type="image/png" href=3d20_logo_single_die.png>
+        
+        <style>
+		:root {
             --primary-color: #000000;
             --primary-text-color: #d7d7d7;
             --primary-text-color-over: #FFF;
@@ -51,45 +26,51 @@
             --header-font-family: "Fira Sans", sans-serif;
             --text-font-family: "Fira Sans", sans-serif;
         }
+
+  
     }
 </style>
 
-    
-    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="/normalize.css">
-    <link rel="stylesheet" href="https://www.3d20.dev/juice.css">
-    
-    <link rel="stylesheet" href="https://www.3d20.dev/carbon.css">
-    
-</head>
+        
+        <link
+            href="https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap"
+            rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600&display=swap"
+            rel="stylesheet">
+        
+        <link rel="stylesheet" href="/normalize.css">
+        <link rel="stylesheet" href="/juice.css">
+        
+        <link rel="stylesheet" href="/carbon.css">
+        
+    </head>
 
-<body>
-    
+    <body>
+        
 <header class="box-shadow">
     
 
-<a href="https://www.3d20.dev/">
+
+<nav allign="right">
+<a href="/">
     <div class="logo">
-        <img src="https://www.3d20.dev/3d20_logo_dice_text_side_by_side.png" alt="logo">
+        <img src="/3d20_logo_dice_text_side_by_side.png" alt="logo">
         
     </div>
 </a>
+</nav>
 
 <nav allign="left">
     
     
     
-    <a class="nav-item subtitle-text" href="https://www.3d20.dev/contact/">Contact Us</a>
+    <a class="nav-item subtitle-text" href="/contact/">Contact Us</a>
     
     
     
     
-    <a class="nav-item subtitle-text" href="https://www.3d20.dev/about/">About</a>
-    
-    
-    
+    <a class="nav-item subtitle-text" href="/about/">About</a>
     
     
     
@@ -98,42 +79,81 @@
 </header>
 
 
-    <main>
-        
-        
-        
-        
-
-        <div class="content text">
+        <main>
             
+            
+            
+            
+
+            <div class="content text">
+                
+
 <div class="heading-text">Contact Us</div>
 
 
-        </div>
+<div class="container">
+    <form action="https://api.web3forms.com/submit" method="POST">
 
-        <!-- 
+        <input type="hidden" name="access_key" value=a31ad7a2-3459-4019-9a79-8f5db777e026>
+
+        <input type="hidden" name="subject"
+            value="New Submission from Web3Forms">
+
+        <input type="hidden" name="from_name" value="Your Website Name">
+        <input type="hidden" name="replyto" value="customer@example.com">
+
+        <input type="hidden" name="redirect"
+            value="https://web3forms.com/success">
+
+        <input type="checkbox" name="botcheck" class="hidden"
+            style="display: none;">
+
+        <div class="h-captcha" data-captcha="true"></div>
+
+        Your Email: <input type="email" name="email" required>
+        <br>
+        Your Name: <input type="text" name="Name" required>
+        <br>
+        Your Contact Number: <input type="tel" name="Phone Number"
+            pattern="[0-9]{3,30}" title="Please Enter A Valid Phone Number"
+            required>
+        <br>
+        Your Message: <br>
+        <textarea name="message"  style="width:500px; height:150px;" required></textarea>
+        <br>
+        <button type="submit">Submit Form</button>
+
+    </form>
+</div>
+
+<!-- Required only if you are using hCaptcha or Advanced File Upload. -->
+<script src="https://web3forms.com/client/script.js" async defer></script>
+
+            </div>
+
+            <!-- 
         <div class="sidebar">
             You can customize the sidebar.
             <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CEBIL27E&placement=extensionsh" id="_carbonads_js"></script>
         </div>
          -->
-    </main>
+        </main>
 
-    
-    <footer>
-    <center>
-        <small class="subtext" >
-        © 2024 3D20 PTY LTD. All rights reserved.
-         
-          <br>
-          <br>
-          A <a href="https://www.getzola.org/">Zola</a> Powered Site. 
-        </small>
-    </center>
-    </footer>
-    
-</body>
-<script>
+        
+        <footer>
+            <center>
+                <small class="subtext">
+                    © 2024 3D20 PTY LTD. All rights reserved.
+
+                    <br>
+                    <br>
+                    A <a href="https://www.getzola.org/">Zola</a> Powered Site.
+                </small>
+            </center>
+        </footer>
+        
+    </body>
+    <script>
     const scrollHandler = entries => {
         // Find the first entry which intersecting and ratio > 0.9 to highlight.
         let entry = entries.find(entry => {

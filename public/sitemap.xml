@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://www.3d20.dev/</loc>
+        <loc>/</loc>
     </url>
     <url>
-        <loc>https://www.3d20.dev/about/</loc>
+        <loc>/about/</loc>
     </url>
     <url>
-        <loc>https://www.3d20.dev/contact/</loc>
-    </url>
-    <url>
-        <loc>https://www.3d20.dev/exclude-from-nav/</loc>
+        <loc>/contact/</loc>
     </url>
 </urlset>

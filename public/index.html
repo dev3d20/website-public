@@ -1,41 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <title>3D20</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-    <link rel="icon" type="image/png" href=3d20_logo_single_die.png>
-    
-    <style>
-    :root {
-        /* Primary theme color */
-        --primary-color: #FED43F;
-        /* Primary theme text color */
-        --primary-text-color: #543631;
-        --primary-text-color-over: #000;
-        /* Primary theme link color */
-        --primary-link-color: #F9BB2D;
-        /* Secondary color: the background body color */
-        --secondary-color: #fcfaf6;
-        --secondary-text-color: #303030;
-        /* Highlight text color of table of content */
-        --toc-highlight-text-color: #d46e13;
-        --toc-background-color: white;
-        --code-color: #4a4a4a;
-        --code-background-color: white;
-
-        --shadow-color: #ddd;
-
-        /* Font used for headers (h1 & h2) */
-        --header-font-family: "Fira Sans", sans-serif;
-        /* Font used for text */
-        --text-font-family: "Fira Sans", sans-serif;
-    }
-
-    @media (prefers-color-scheme: dark) {
-        :root {
+    <head>
+        <meta charset="UTF-8">
+        <title>3D20</title>
+        <meta name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <link rel="icon" type="image/png" href=3d20_logo_single_die.png>
+        
+        <style>
+		:root {
             --primary-color: #000000;
             --primary-text-color: #d7d7d7;
             --primary-text-color-over: #FFF;
@@ -51,129 +26,131 @@
             --header-font-family: "Fira Sans", sans-serif;
             --text-font-family: "Fira Sans", sans-serif;
         }
+
+  
     }
 </style>
 
-    
-    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="/normalize.css">
-    <link rel="stylesheet" href="https://www.3d20.dev/juice.css">
-    
-    <link rel="stylesheet" href="https://www.3d20.dev/carbon.css">
-    
-</head>
+        
+        <link
+            href="https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap"
+            rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600&display=swap"
+            rel="stylesheet">
+        
+        <link rel="stylesheet" href="/normalize.css">
+        <link rel="stylesheet" href="/juice.css">
+        
+        <link rel="stylesheet" href="/carbon.css">
+        
+    </head>
 
-<body>
-    
-
-    <header class="pos-absolute" style="background-color: transparent">
+    <body>
         
 
-<a href="https://www.3d20.dev/">
+        <header class="pos-absolute" style="background-color: transparent">
+            
+
+
+<nav allign="right">
+<a href="/">
     <div class="logo">
-        <img src="https://www.3d20.dev/3d20_logo_dice_text_side_by_side.png" alt="logo">
+        <img src="/3d20_logo_dice_text_side_by_side.png" alt="logo">
         
     </div>
 </a>
+</nav>
 
 <nav allign="left">
     
     
     
-    <a class="nav-item subtitle-text" href="https://www.3d20.dev/contact/">Contact Us</a>
+    <a class="nav-item subtitle-text" href="/contact/">Contact Us</a>
     
     
     
     
-    <a class="nav-item subtitle-text" href="https://www.3d20.dev/about/">About</a>
-    
-    
-    
+    <a class="nav-item subtitle-text" href="/about/">About</a>
     
     
     
 </nav>
 
-    </header>
+        </header>
 
-    <div class="hero">
-        
-        <script async defer src="https://buttons.github.io/buttons.js"></script>
-        <section class="text-center">
-            <h1 class="heading-text" style="font-size: 50px">
-                AI, Computer Vision, and IoT Systems.
-            </h1>
-            <h3 class="title-text">
-                Building the next generation of tech, from 0 to shippable product.
-            </h3>
-            <div>
-                <!-- <a class="github-button" href="https://github.com/huhu/juice" data-size="large" data-show-count="true"
-                    aria-label="Star huhu/juice on GitHub">Star</a>
-                <a class="github-button" href="https://github.com/huhu/juice/fork" data-size="large"
-                    data-show-count="true" aria-label="Fork huhu/juice on GitHub">Fork</a> -->
+        <div class="hero">
+            
+            <script async defer
+                src="https://buttons.github.io/buttons.js"></script>
+            <section class="text-center">
+                <div class="logo-main">
+                    <img src="/3d20_logo_dice_text_side_by_side.png"
+                        alt="logo">
+                    
+                </div>
+                <h1 class="heading-text" style="font-size: 50px">
+                    
+                    AI, Computer Vision, and IoT Systems.
+                </h1>
+                <h3 class="title-text">
+                    Building the next generation of tech, from 0 to shippable product.
+                </h3>
+                    <img class="hero-image" style="width: 100%"
+                        src="/3d20_logo_transparent.png">
+            
+            </section>
+    
+            <div class="explore-more text"
+                onclick="document.getElementById('features').scrollIntoView({behavior: 'smooth'})">
+                Explore More ⇩
             </div>
-        </section>
-        <img class="hero-image" style="width: 50%" src="https://www.3d20.dev/3d20_logo_transparent.png">
-
-        <div class="explore-more text"
-            onclick="document.getElementById('features').scrollIntoView({behavior: 'smooth'})">
-            Explore More ⇩
-        </div>
-        <style>
+            <style>
             .hero section {
                 padding: 0 5rem;
             }
 
-            @media screen and (max-width: 768px) {
-                .hero section {
-                    padding: 0 2rem;
-                }
-
-                .hero-image {
-                    display: none
-                }
-            }
+        
         </style>
-        
-    </div>
-
-    
-
-    <main>
-        
-        
-        
-        
-        
-        <div class="toc">
-            <div class="toc-sticky">
-                
-                <div class="toc-item">
-                    <a class="subtext" href="https://www.3d20.dev/#who-we-are">Who We Are</a>
-                </div>
-                
-                
-                <div class="toc-item">
-                    <a class="subtext" href="https://www.3d20.dev/#what-we-do">What We Do</a>
-                </div>
-                
-                
-                <div class="toc-item">
-                    <a class="subtext" href="https://www.3d20.dev/#contact">Contact</a>
-                </div>
-                
-                
-            </div>
+            
         </div>
         
+
         
 
-        <div class="content text">
+        <main>
             
-            <div id="features" class="heading-text">Overview</div>
-            <h1 id="who-we-are">Who We Are</h1>
+            
+            
+            
+            
+            <div class="toc">
+                <div class="toc-sticky">
+                    
+                    <div class="toc-item">
+                        <a class="subtext" href="/#who-we-are">Who We Are</a>
+                    </div>
+                    
+                    
+                    <div class="toc-item">
+                        <a class="subtext" href="/#what-we-do">What We Do</a>
+                    </div>
+                    
+                    
+                    <div class="toc-item">
+                        <a class="subtext" href="/#contact">Contact</a>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+            
+            
+
+            <div class="content text">
+                
+                <div id="features" class="heading-text">Overview</div>
+                <h1 id="who-we-are">Who We Are</h1>
 <p>3D20 is based in Melbourne, Australia.</p>
 <h1 id="what-we-do">What We Do</h1>
 <p>At 3D20  we specialise in rapid prototyping and developing of AI, Computer Vision, and Computer Systems.
@@ -181,34 +158,34 @@ Our philosophy of moving fast, breaking things, and rapid iteration allows us to
 and quickly obtain real world feed back from our users/potential customers.
 Thus, through this cyclic process we can quickly change our products for exact use case fit.</p>
 <h1 id="contact">Contact</h1>
-<p>For further information, or if you have any questions <a href="https://www.3d20.dev/contact/">please contact us.</a> </p>
+<p>For further information, or if you have any questions <a href="/contact/">please contact us.</a> </p>
 
-            
-        </div>
+                
+            </div>
 
-        <!-- 
+            <!-- 
         <div class="sidebar">
             You can customize the sidebar.
             <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CEBIL27E&placement=extensionsh" id="_carbonads_js"></script>
         </div>
          -->
-    </main>
+        </main>
 
-    
-    <footer>
-    <center>
-        <small class="subtext" >
-        © 2024 3D20 PTY LTD. All rights reserved.
-         
-          <br>
-          <br>
-          A <a href="https://www.getzola.org/">Zola</a> Powered Site. 
-        </small>
-    </center>
-    </footer>
-    
-</body>
-<script>
+        
+        <footer>
+            <center>
+                <small class="subtext">
+                    © 2024 3D20 PTY LTD. All rights reserved.
+
+                    <br>
+                    <br>
+                    A <a href="https://www.getzola.org/">Zola</a> Powered Site.
+                </small>
+            </center>
+        </footer>
+        
+    </body>
+    <script>
     const scrollHandler = entries => {
         // Find the first entry which intersecting and ratio > 0.9 to highlight.
         let entry = entries.find(entry => {
